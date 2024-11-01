@@ -1,0 +1,422 @@
+.out_mess_text_syra::first-letter {
+    text-transform: uppercase;
+}
+
+.incom_mess_text_syra::first-letter {
+    text-transform: uppercase;
+}
+
+.incom_mess_text_syra {
+    word-wrap: break-word;
+}
+
+.typingGif_syra p {
+    background: url('../images/typing.gif') no-repeat left center;
+    padding: 10px 0 10px 120px;
+}
+
+::placeholder {
+    color: #a59999;
+    opacity: 1;
+}
+
+ :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #a59999;
+}
+
+ ::-ms-input-placeholder {
+    color: #a59999;
+}
+
+.wrapper_syra * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper_syra img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.likes_syra ol,
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+.incom_mess_text_syra ol,
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+.wrapper_syra a {
+    color: #000;
+    text-decoration: none;
+    outline: 0 none !important;
+}
+
+.wrapper_syra a:hover,
+a:focus {
+    color: #000;
+    text-decoration: none;
+    outline: 0 none !important;
+}
+
+.clear_syra {
+    clear: both;
+    font-size: 1px;
+    line-height: 1px;
+    display: block;
+    height: 0;
+}
+
+@font-face {
+    font-family: 'AvenirNextLTPro-Regular';
+    src: url('../fonts/AvenirNextLTPro-Regular/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextLTPro-Regular/AvenirNextLTPro-Regular.otf') format('opentype'), url('../fonts/AvenirNextLTPro-Regular/AvenirNextLTPro-Regular.woff') format('woff'), url('../fonts/AvenirNextLTPro-Regular/AvenirNextLTPro-Regular.ttf') format('truetype'), url('../fonts/AvenirNextLTPro-Regular/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNextLTPro-Bold';
+    src: url('../fonts/AvenirNextLTPro-Bold/AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextLTPro-Bold/AvenirNextLTPro-Bold.otf') format('opentype'), url('../fonts/AvenirNextLTPro-Bold/AvenirNextLTPro-Bold.woff') format('woff'), url('../fonts/AvenirNextLTPro-Bold/AvenirNextLTPro-Bold.ttf') format('truetype'), url('../fonts/AvenirNextLTPro-Bold/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNextLTPro-Demi';
+    src: url('../fonts/AvenirNextLTPro-Demi/AvenirNextLTPro-Demi.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextLTPro-Demi/AvenirNextLTPro-Demi.otf') format('opentype'), url('../fonts/AvenirNextLTPro-Demi/AvenirNextLTPro-Demi.woff') format('woff'), url('../fonts/AvenirNextLTPro-Demi/AvenirNextLTPro-Demi.ttf') format('truetype'), url('../fonts/AvenirNextLTPro-Demi/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNextLTPro-Medium';
+    src: url('../fonts/AvenirNextLTPro-Medium/AvenirNextLTPro-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextLTPro-Medium/AvenirNextLTPro-Medium.otf') format('opentype'), url('../fonts/AvenirNextLTPro-Medium/AvenirNextLTPro-Medium.woff') format('woff'), url('AvenirNextLTPro-Medium.ttf') format('truetype'), url('../fonts/AvenirNextLTPro-Medium/AvenirNextLTPro-Medium.svg#AvenirNextLTPro-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper_syra {
+    color: #000000;
+    font-family: 'AvenirNextLTPro-Regular';
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.wrapper_syra {
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.wrapper_syra header {
+    background: #9A306F;
+    padding: 0;
+}
+
+.header_main_syra {
+    padding: 29px 17px 20px 52px;
+    position: relative;
+}
+
+.header_hd_syra {
+    padding: 0px 0 16px 0;
+}
+
+.header_hd_syra h2 {
+    color: #fff;
+    font-family: 'AvenirNextLTPro-Regular';
+    margin: 0 0 -8px 0;
+}
+
+.header_hd_syra p {
+    color: white;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.likes_syra {
+    float: right;
+}
+
+.likes_syra ul {
+    display: inline-block;
+    width: 300px;
+}
+
+.likes_syra ul li {
+    display: inline-block;
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+.likes_syra ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #8e1e60;
+    border-radius: 100%;
+}
+
+.likes_syra ul li a img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    height: 33px;
+}
+
+.close_me_syra {
+    position: absolute;
+    right: 54px;
+    top: 45px;
+}
+
+.chartbox_main_syra {
+    background: #fff;
+    position: relative;
+}
+
+.chart_box_syra {
+    background: #e6e6e6;
+    padding: 195px 53px 40px 55px;
+}
+
+.msg_block_syra {
+    margin-bottom: -40px;
+}
+
+.timer_syra {
+    padding: 10px 15px 0 12px;
+}
+
+.timer_syra span {
+    color: #929292;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: right;
+    display: block;
+}
+
+.out_you_syra a {
+    font-size: 70px;
+    line-height: 70px;
+    width: 120px;
+    height: 120px;
+    background: #f1d40d;
+    display: block;
+    border-radius: 100%;
+    text-align: center;
+    padding: 17px 0 0 0;
+    float: right;
+    border: #e6e6e6 10px solid;
+}
+
+.outgoing_msg_syra {
+    margin: 50px 0 0px 0;
+}
+
+.out_mess_text_syra {
+    background: #f9f2d8;
+    padding: 36px 25px 38px 34px;
+    border-radius: 25px;
+    box-shadow: 1px 2px 6px 0px #c4c4c4;
+}
+
+.out_mess_text_syra span {}
+
+.out_mess_text_syra p {
+    margin: 0;
+}
+
+.outgoingmsg_in_syra {
+    float: right;
+    position: relative;
+}
+
+.incom_you_syra {
+    position: absolute;
+    left: -6px;
+    top: -100px;
+    z-index: 1;
+}
+
+.incom_you_syra a {
+    font-size: 70px;
+    width: 140px;
+    display: block;
+    border-radius: 100%;
+    text-align: center;
+    padding: 0;
+    border: #e6e6e6 6px solid;
+}
+
+.incoming_msg_syra {
+    margin: 45px 0 20px 0;
+}
+
+.incom_mess_text_syra {
+    background: #f8d3e3;
+    padding: 42px 20px 45px 60px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px 0px #c4c4c4;
+}
+
+.incom_mess_text_syra span {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 0px 0;
+    font-family: 'AvenirNextLTPro-Regular';
+}
+
+.incom_mess_text_syra p {
+    margin: 0;
+    line-height: 57px;
+    max-width: 714PX;
+}
+
+.incomingmsg_in_syra {
+    position: relative;
+    max-width: 829px;
+}
+
+.out_you_syra {
+    position: absolute;
+    right: -14px;
+    top: -114px;
+    z-index: 1;
+}
+
+.out_you_syra a {
+    font-size: 70px;
+    line-height: 70px;
+    width: 140px;
+    height: 140px;
+    background: #f1d40d;
+    display: block;
+    border-radius: 100%;
+    text-align: center;
+    padding: 26px 0 0 0;
+    float: right;
+    border: #e6e6e6 10px solid;
+}
+
+.timer1_syra span {
+    text-align: left;
+}
+
+.automated_syra {
+    text-align: center;
+    padding: 53px 0 10px 0;
+}
+
+.automated_syra p {
+    color: #929292;
+    text-align: center;
+    margin: 0;
+    background: url('../images/syra.png') no-repeat left center;
+    font-size: 32px;
+    line-height: 45px;
+    padding: 10px 0 10px 43px;
+    display: inline-block;
+}
+
+.data_enter_syra {}
+
+.data_box_syra {
+    display: inline-block;
+    float: left;
+    width: 92%;
+}
+
+.data_input_syra {
+    display: inline-block;
+    float: left;
+    width: 86%;
+    margin: 0 2.5% 0 0;
+}
+
+.data_input_syra input {
+    background: #f0f0f0;
+    width: 100%;
+    height: 108px;
+    line-height: 108px;
+    padding: 0 40px 0 31px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 51px;
+    color: #000;
+    letter-spacing: 0.7px;
+}
+
+.data_submit_syra {
+    display: inline-block;
+    float: left;
+    width: 11%;
+    padding: 0px 0 0 0;
+}
+
+.data_submit_syra button {
+    background: url('../images/arow.png') no-repeat center center #89053d;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #000000;
+}
+
+::-moz-placeholder {
+    color: #000000;
+}
+
+:-ms-input-placeholder {
+    color: #000000;
+}
+
+:-moz-placeholder {
+    color: #000000;
+}
+
+.float_syra {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: -10px;
+    right: 40px;
+    color: #000000;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    z-index: 2147483647;
+}
+
+#ChatWindow {
+    display: none;
+    z-index: 2147483647;
+}
+
+.badge_taxbot_syra {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+}
